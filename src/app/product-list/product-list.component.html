@@ -10,6 +10,10 @@
     </a>
   </h3>
 
+  <p *ngIf="product.image">
+  <img class="productImage" src= '{{ product.image }}' />
+  
+</p>
   <p *ngIf="product.description">
     Description: {{ product.description }}
   </p>

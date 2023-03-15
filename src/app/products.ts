@@ -8,22 +8,44 @@ export interface Product {
 export const products = [
   {
     id: 1,
-    name: 'Phone XL',
+    name: 'Apple Phone (iPhone)',
     price: 799,
-    description: 'A large phone with one of the best screens'
+    description: 'It has a good camera, das it.',
+    image: 'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-card-40-iphone14pro-202209_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1663611329204'
   },
   {
     id: 2,
-    name: 'Phone Mini',
+    name: 'Samsung Phone',
     price: 699,
-    description: 'A great phone with one of the best cameras'
+    description: 'Like iPhone, but not iPhone.'
   },
   {
     id: 3,
-    name: 'Phone Standard',
+    name: 'Xiaomi Phone',
     price: 299,
-    description: ''
-  }
+    description: 'You can get a good phone even if you are broke.'
+  },
+
+  {
+    id: 4,
+    name: 'Oppo Phone',
+    price: 299,
+    description: 'Meh, average phone for the price.'
+  },
+
+  {
+    id: 5,
+    name: 'Vivo Phone',
+    price: 299,
+    description: 'Same as Oppo.'
+  },
+
+  {
+    id: 6,
+    name: 'Realme Phone',
+    price: 299,
+    description: 'Had a spark when first started, but now iz just garbage.'
+  },
 ];
 
 
