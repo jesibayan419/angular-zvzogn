@@ -1,7 +1,11 @@
 h1 {
   font-family: "Impact";
+  color: rgb(255, 123, 0);
+  padding-left: 300px;
 }
 
 .icon-mobile-phone {
-  color:white;
+  color:rgb(255, 123, 0);
+  background-color: #0011ff;
 }
+

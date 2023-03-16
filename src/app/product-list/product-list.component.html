@@ -1,29 +1,34 @@
-<h2 class="section-heading">Products</h2>
+<h2 class="section-heading">PRODUCTS</h2>
 
 <div class="productList" *ngFor="let product of products">
 
+  <p class="sale-text">  SALE </p>
+  <p id="dummy"> Hello </p>
+  <p class="new-text">  NEW </p>  
+  
+  <p *ngIf="product.image" class="pImage">
+    <img class="productImage" src= '{{ product.image }}' />
+  </p>
+
   <h3>
-    <a
+    <a class="productName"
       [title]="product.name + ' details'"
       [routerLink]="['/products', product.id]">
       {{ product.name }}
     </a>
   </h3>
 
-  <p *ngIf="product.image">
-  <img class="productImage" src= '{{ product.image }}' />
   
-</p>
   <p *ngIf="product.description">
-    Description: {{ product.description }}
+    {{ product.description }}
   </p>
-
-  <button type="button" (click)="share()">
-    Share
-  </button>
+  <p *ngIf="product.price" class="productPrice">
+    &#8369;{{ product.price }}
+  </p>
   
   <app-product-alerts
     [product]="product">
   </app-product-alerts>
 
+  
 </div>

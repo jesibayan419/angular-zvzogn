@@ -6,6 +6,7 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e6e6e6;
 }
 
 body {
@@ -19,16 +20,20 @@ body {
 
 router-outlet + *  {
   padding: 0 16px;
+  margin-right: 300px;
+  margin-left: 300px;
 }
 
 /* Text */
 
 h1 {
   font-size: 32px;
+  background-color: #0011ff;
 }
 
 h2 {
   font-size: 20px;
+
 }
 
 h1, h2 {
@@ -77,7 +82,7 @@ label {
   border-radius: 2px;
   font-size: 14px;
   cursor: pointer;
-  background-color: #ec0b0b;
+  background-color: #0011ff;
   color: white;
   border: none;
 }
@@ -96,12 +101,14 @@ label {
 
 .fancy-button {
   background-color: white;
-  color: #ec0b0b;
+  color: #0011ff;
+  margin-right: 300px;
 }
 
 .fancy-button i.material-icons {
-  color: #ec0b0b;
+  color: #0011ff;
   padding-right: 4px;
+  background-color: white;
 }
 
 /* Top Bar */
@@ -109,7 +116,7 @@ label {
 app-top-bar {
   width: 100%;
   height: 68px;
-  background-color: #ec0b0b;
+  background-color: #0011ff;
   padding: 16px;
   display: flex;
   flex-direction: row;
