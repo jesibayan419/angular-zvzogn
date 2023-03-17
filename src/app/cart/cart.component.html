@@ -4,9 +4,11 @@
   <a routerLink="/shipping">Shipping Prices</a>
 </p>
 
+
 <div class="cart-item" *ngFor="let item of items">
+<span class="itemImage"> <img class="itemImage" src= '{{ item.image }}' /> </span>
 <span>{{ item.name }} </span>
-<span>{{ item.price | currency }}</span>
+<span> &#8369; {{ item.price }}</span>
 </div>
 
 <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">

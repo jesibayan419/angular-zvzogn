@@ -1,3 +1,14 @@
 h3 {
   margin-top: 20px;
 }
+.cart-item > span{
+  background-color: white;
+}
+.cart-item {
+  background-color: white;
+  font-size: 20px;
+}
+.itemImage {
+  width: 40px;
+  height: 40px;
+}
