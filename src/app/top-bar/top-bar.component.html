@@ -1,9 +1,15 @@
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
 <a [routerLink]="['/']">
   <h1>CP Cartel <i class="icon-mobile-phone"></i></h1> 
 </a>
+
+<div class="search">
+<input id="searchBar" type="text" placeholder="Search in CP Cartel" name="search">
+<button id="btnSearch" type="submit"><i class="fa fa-search icon-large"></i></button>
+</div>
 
 <a routerLink="/cart" class="button fancy-button">
   <i class="material-icons">shopping_cart</i>Checkout

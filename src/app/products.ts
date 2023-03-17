@@ -3,6 +3,7 @@ export interface Product {
   name: string;
   price: number;
   description: string;
+  image: string;
 }
 
 export const products = [
@@ -50,6 +51,34 @@ export const products = [
     price: 19990,
     description: '6.4-inch Full HD+, Helio G99, 128GB, 5000mAh',
     image: 'https://i.expansys.net/img/p/374939/realme-gt-neo-2-5g-dual-sim.jpg'
+  },
+  {
+    id: 7,
+    name: 'OnePlus Phone',
+    price: 39990,
+    description: '6.4-inch Full HD+, Helio G99, 128GB, 5000mAh',
+    image: 'https://i.expansys.net/img/b/385242/oneplus-ace-5g-dual-sim.jpg'
+  },
+  {
+    id: 8,
+    name: 'ROG Phone',
+    price: 49990,
+    description: '6.4-inch Full HD+, Helio G99, 128GB, 5000mAh',
+    image: 'https://d1rlzxa98cyc61.cloudfront.net/catalog/product/cache/1801c418208f9607a371e61f8d9184d9/1/7/174876_2020_6.jpg'
+  },
+  {
+    id: 9,
+    name: 'ZTE Phone',
+    price: 29990,
+    description: '6.4-inch Full HD+, Helio G99, 128GB, 5000mAh',
+    image: 'https://www.gizmochina.com/wp-content/uploads/2020/02/Nubia-Red-Magic-5G.jpg'
+  },
+  {
+    id: 10,
+    name: 'HONOR Phone',
+    price: 15990,
+    description: '6.4-inch Full HD+, Helio G99, 128GB, 5000mAh',
+    image: 'https://d1rlzxa98cyc61.cloudfront.net/catalog/product/cache/2de03cad1789ed6d6bbbd7ce042d97af/1/8/187339_2023.jpg'
   },
 ];
 

@@ -6,9 +6,15 @@
   <p id="dummy"> Hello </p>
   <p class="new-text">  NEW </p>  
   
+  
+  
+
   <p *ngIf="product.image" class="pImage">
-    <img class="productImage" src= '{{ product.image }}' />
+    <a [routerLink]="['/products', product.id]">
+      <img class="productImage" src= '{{ product.image }}' />
+    </a>  
   </p>
+  
 
   <h3>
     <a class="productName"
@@ -19,7 +25,7 @@
   </h3>
 
   
-  <p *ngIf="product.description">
+  <p *ngIf="product.description" class="pDesc">
     {{ product.description }}
   </p>
   <p *ngIf="product.price" class="productPrice">

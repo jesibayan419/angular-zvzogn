@@ -1,0 +1,29 @@
+* :not(h2) :not(button){
+  background-color: white;
+}
+.pDesc {
+  float: right;
+  padding: 30px;
+  background-color: white;
+  width: 400px;
+  height: 400px;
+}
+.pImage {
+  float: left;
+}
+.productImage {
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+}
+.pDetails {
+  color: white;
+}
+
+h4 {
+  color: #1e2dff;
+  font-size: 1.2vw;
+}
+h3 {
+  color: black;
+}
