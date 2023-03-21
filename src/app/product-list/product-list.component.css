@@ -1,7 +1,13 @@
 * {
   background-color: white;
 }
-
+.bigImg {
+  overflow: hidden;
+}
+.bigImgDIV {
+  overflow: hidden;
+  width: 1303px;
+}
 .productPrice {
   color: #1e2dff;
   font-size: 20px;
